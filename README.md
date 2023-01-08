@@ -74,7 +74,7 @@ docker system prune
 
 # REGISTRY LOCAL
 
-![hub-local.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/hub-local.png)
+![hub-local.png](hub-local.png)
 
 ```bash
 # Docker-registry-local
@@ -93,9 +93,9 @@ docker system prune
 
 # DOCKER CONTAINER
 
-![CONTAINER.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/CONTAINER.png)
+![CONTAINER.png](CONTAINER.png)
 
-![RUN-CONTAINER.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/RUN-CONTAINER.png)
+![RUN-CONTAINER.png](RUN-CONTAINER.png)
 
 ```bash
 # Make container
@@ -123,7 +123,7 @@ docker system prune
 
 # MAP PORT
 
-![map-port.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/map-port.png)
+![map-port.png](map-port.png)
 
 ```bash
 # Map port
@@ -137,7 +137,7 @@ docker system prune
 
 # MANAGE DATA SIZE
 
-![manage-data-size.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/manage-data-size.png)
+![manage-data-size.png](manage-data-size.png)
 
 MAP docker-container-directory AT host--directory
 
@@ -156,7 +156,7 @@ MAP docker-container-directory AT host--directory
 
 ## Link-legacy
 
-![link-legacy.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/link-legacy.png)
+![link-legacy.png](link-legacy.png)
 
 ### Link training/webapp to training/postgres
 
@@ -226,7 +226,7 @@ docker exec web env
 
 # BUILD IMAGES - Dockerfile
 
-![build-image.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/build-image.png)
+![build-image.png](build-image.png)
 
 ## Dockerfile
 
@@ -269,7 +269,7 @@ docker run -d -p 8009:80 **localhost:8010/htppd_test**
 
 # BRIDGE, HOST, NULL
 
-![NETWORK.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/NETWORK.png)
+![NETWORK.png](NETWORK.png)
 
 ```bash
 
@@ -758,15 +758,15 @@ kibana:
 
 ## STACK ( COMPOSE  - SWARM - CLUSTERS MANAGERS )
 
-![Stack.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/Stack.png)
+![Stack.png](Stack.png)
 
 ## SERVICE
 
-![Service.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/Service.png)
+![Service.png](Service.png)
 
 ### Initialize SWARM ( CLUSTERS )
 
-![Swarm-cycle.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/Swarm-cycle.png)
+![Swarm-cycle.png](Swarm-cycle.png)
 
 ```bash
 # Show me Swarmms status
@@ -786,7 +786,7 @@ kibana:
 
 ### SWARM JOIN  ( LEADER, WORKER, NODE )
 
-![swarm-join.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/swarm-join.png)
+![swarm-join.png](swarm-join.png)
 
 ```bash
 # login to **worker-00**
@@ -834,7 +834,7 @@ kibana:
 
 ## SERVICE
 
-![Service.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/Service.png)
+![Service.png](Service.png)
 
 ```bash
 # Service option
@@ -893,7 +893,7 @@ kibana:
 
 ### docker-compose
 
-![Stack.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/Stack.png)
+![Stack.png](Stack.png)
 
 ### Edit docker-compose.yml
 
