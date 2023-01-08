@@ -44,7 +44,7 @@ docker system prune
 
 # MANAGE IMAGES
 
-![gere-images.png](DOCKER%20ESSENTIAL%200d949f37bf1b4a818b900e10b68edd2a/gere-images.png)
+![gere-images.png](gere-images.png)
 
 ```bash
 	docker |grep image
